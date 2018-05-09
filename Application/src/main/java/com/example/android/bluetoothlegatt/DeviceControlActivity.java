@@ -109,6 +109,9 @@ public class DeviceControlActivity extends Activity {
                 displayGattServices(mBluetoothLeService.getSupportedGattServices());
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
+                String data = intent.getStringExtra(BluetoothLeService.EXTRA_DATA);
+                CSVReader.write(data, getApplicationContext().getExternalFilesDir(null));
+                Log.d(TAG, data);
             }
         }
     };
