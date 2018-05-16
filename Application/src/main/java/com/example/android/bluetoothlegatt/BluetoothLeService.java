@@ -29,9 +29,11 @@ import android.bluetooth.BluetoothProfile;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Binder;
+import android.os.Environment;
 import android.os.IBinder;
 import android.util.Log;
 
+import java.io.File;
 import java.util.List;
 import java.util.UUID;
 
@@ -78,7 +80,8 @@ public class BluetoothLeService extends Service {
             if (newState == BluetoothProfile.STATE_CONNECTED) {
                 intentAction = ACTION_GATT_CONNECTED;
                 mConnectionState = STATE_CONNECTED;
-                gatt.requestMtu(255);
+//                gatt.requestMtu(AppManager.MTU_VALUE);
+                RequestMTU();
                 broadcastUpdate(intentAction);
                 Log.i(TAG, "Connected to GATT server.");
                 // Attempts to discover services after successful connection.
@@ -90,6 +93,39 @@ public class BluetoothLeService extends Service {
                 mConnectionState = STATE_DISCONNECTED;
                 Log.i(TAG, "Disconnected from GATT server.");
                 broadcastUpdate(intentAction);
+            }
+        }
+
+
+        boolean mtuConfirmed = false;
+
+        void RequestMTU(){
+            new Thread(new Runnable() {
+                int mtuRequestCounter = 0;
+                @Override
+                public void run() {
+                    while (!mtuConfirmed) {
+                        mBluetoothGatt.requestMtu(AppManager.MTU_VALUE);
+                        mtuRequestCounter++;
+                        try {
+                            Thread.sleep(1000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                    Log.d(TAG, "MTU change reply received after " + mtuRequestCounter + " attempts");
+                }
+            }).start();
+        }
+
+        @Override
+        public void onMtuChanged(BluetoothGatt gatt, int mtu, int status) {
+            super.onMtuChanged(gatt, mtu, status);
+
+            if (status == BluetoothGatt.GATT_SUCCESS) {
+                Log.d(TAG,"Mtu Granted");
+                mtuConfirmed = true;
+//                            this.supportedMTU = mtu;
             }
         }
 
@@ -148,14 +184,17 @@ public class BluetoothLeService extends Service {
         } else {
             // For all other profiles, writes the data formatted in HEX.
             final byte[] data = characteristic.getValue();
-            Log.d(TAG,"DATTATAT = " + new String(data));
+
             if (data != null && data.length > 0) {
                 final StringBuilder stringBuilder = new StringBuilder(data.length);
                 for(byte byteChar : data)
                     stringBuilder.append(String.format("%02X ", byteChar));
-                intent.putExtra(EXTRA_DATA, new String(data) + "\n" + stringBuilder.toString());
-                CSVReader.write(data, getApplicationContext().getExternalFilesDir(null));
-                Log.d(TAG, new String(data));
+
+                String dataString = new String(data) + "\n" + stringBuilder.toString();
+                intent.putExtra(EXTRA_DATA, dataString);
+                File dir = getApplicationContext().getExternalFilesDir(null);
+                CSVReader.write(stringBuilder.toString(), dir);
+                Log.d(TAG, stringBuilder.toString());
             }
         }
         sendBroadcast(intent);

@@ -14,21 +14,18 @@ import java.util.UUID;
 
 public class CSVReader {
 
-    private  static String defaultFileName = "/health.txt";
+    private  static String defaultFileName = "/health.csv";
     private final static String headers = "id , index , deviceId , data , deviceId";
-    private static String rowDataStringFormat = "%s, %s , %s, %s\n";
+    private static String rowDataStringFormat = "%s, %s, %s\n";
     static String TAG = "CSVReader";
     static File file = null;
 
     public static String getFormattedData(byte[] rawData){
-        return new String(rawData);
-//        StringBuffer sb = new StringBuffer("");
-//        for(int i=0; i<rawData.length; i++){
-//            int curr = rawData[i];
-//            sb.append(curr);
-//        }
-//
-//        return sb.toString();
+
+        final StringBuilder stringBuilder = new StringBuilder(rawData.length);
+        for(byte byteChar : rawData)
+            stringBuilder.append(String.format("%02X ", byteChar));
+        return stringBuilder.toString();
     }
 
     public static void write(byte[] rawData, File path){
@@ -40,7 +37,7 @@ public class CSVReader {
         String uid = UUID.randomUUID().toString();
         String deviceId = "IrSensor2";
 
-        String row = String.format(rowDataStringFormat,epochTime,deviceId,data,dateValue);
+        String row = String.format(rowDataStringFormat,epochTime,data,dateValue);
         Log.d(TAG,"row value - " + row);
         writeToFile(row,path);
 
@@ -52,10 +49,10 @@ public class CSVReader {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         String epochTime = Long.toString(timestamp.getTime());
         String uid = UUID.randomUUID().toString();
-        String deviceId = "IrSensor2";
+//        String deviceId = "IrSensor2";
 
-        String row = String.format(rowDataStringFormat,uid,epochTime,deviceId,data,dateValue);
-        Log.d(TAG,"row value - " + row);
+        String row = String.format(rowDataStringFormat,epochTime,data,dateValue);
+        Log.d(TAG,"string row value - " + row);
         writeToFile(row,path);
     }
 

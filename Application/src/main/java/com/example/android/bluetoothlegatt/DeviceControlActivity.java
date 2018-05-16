@@ -110,7 +110,7 @@ public class DeviceControlActivity extends Activity {
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
                 String data = intent.getStringExtra(BluetoothLeService.EXTRA_DATA);
-                CSVReader.write(data, getApplicationContext().getExternalFilesDir(null));
+//                CSVReader.write(data, getApplicationContext().getExternalFilesDir(null));
                 Log.d(TAG, data);
             }
         }
@@ -230,6 +230,7 @@ public class DeviceControlActivity extends Activity {
     }
 
     private void updateConnectionState(final int resourceId) {
+        Log.d(TAG,"UpdatingConnectionState");
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
