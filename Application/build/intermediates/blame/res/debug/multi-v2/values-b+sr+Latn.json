@@ -4,7 +4,7 @@
             "outputFile": "/Users/navi/android-BluetoothLeGatt/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "/Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ce2b08aff7b2caae46e3816f2bc8ff65/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "/Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9de903e20620b60063028ab24b1377d1/res/values-b+sr+Latn/values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b6513015399e606ee5a6a5813658131e/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "/Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1bbb166a4aad02ad6820249080709d15/res/values-b+sr+Latn/values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

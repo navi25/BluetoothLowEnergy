@@ -33,7 +33,10 @@ import android.os.Environment;
 import android.os.IBinder;
 import android.util.Log;
 
+import com.newtronlabs.sharedmemory.prod.memory.ISharedMemory;
+
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.UUID;
 
@@ -160,7 +163,7 @@ public class BluetoothLeService extends Service {
     }
 
     private void broadcastUpdate(final String action,
-                                 final BluetoothGattCharacteristic characteristic) {
+                                 final BluetoothGattCharacteristic characteristic){
         final Intent intent = new Intent(action);
 
         Log.d(TAG,"In BroadCastUpdate");
@@ -193,8 +196,10 @@ public class BluetoothLeService extends Service {
                 String dataString = new String(data) + "\n" + stringBuilder.toString();
                 intent.putExtra(EXTRA_DATA, dataString);
                 File dir = getApplicationContext().getExternalFilesDir(null);
-                CSVReader.write(stringBuilder.toString(), dir);
+//                CSVReader.write(stringBuilder.toString(), dir);
+
                 Log.d(TAG, stringBuilder.toString());
+                SharedMem.writeToSharedMem(data);
             }
         }
         sendBroadcast(intent);

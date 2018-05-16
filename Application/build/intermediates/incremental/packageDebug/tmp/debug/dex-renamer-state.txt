@@ -1,4 +1,4 @@
-#Tue May 15 17:17:52 MST 2018
+#Tue May 15 18:26:03 MST 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -8,6 +8,6 @@ renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 base.3=/Users/navi/android-BluetoothLeGatt/Application/build/intermediates/transforms/dexMerger/debug/50
-base.2=/Users/navi/android-BluetoothLeGatt/Application/build/intermediates/transforms/dexMerger/debug/49
-base.1=/Users/navi/android-BluetoothLeGatt/Application/build/intermediates/transforms/dexMerger/debug/52
+base.2=/Users/navi/android-BluetoothLeGatt/Application/build/intermediates/transforms/dexMerger/debug/52
+base.1=/Users/navi/android-BluetoothLeGatt/Application/build/intermediates/transforms/dexMerger/debug/49
 base.0=/Users/navi/android-BluetoothLeGatt/Application/build/intermediates/transforms/dexMerger/debug/51

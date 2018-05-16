@@ -4,7 +4,17 @@
             "outputFile": "/Users/navi/android-BluetoothLeGatt/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml",
             "map": [
                 {
-                    "source": "/Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ce2b08aff7b2caae46e3816f2bc8ff65/res/values-ka/values-ka.xml",
+                    "source": "/Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1bbb166a4aad02ad6820249080709d15/res/values-ka/values-ka.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,318,429,517,622,735,819,901,984,1097,1204,1302,1415,1519,1623,1780,1878",
+                        "endColumns": "108,103,110,87,104,112,83,81,82,112,106,97,112,103,103,156,97,80",
+                        "endOffsets": "209,313,424,512,617,730,814,896,979,1092,1199,1297,1410,1514,1618,1775,1873,1954"
+                    }
+                },
+                {
+                    "source": "/Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9de903e20620b60063028ab24b1377d1/res/values-ka/values-ka.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1959",
                         "endColumns": "100",
                         "endOffsets": "2055"
-                    }
-                },
-                {
-                    "source": "/Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b6513015399e606ee5a6a5813658131e/res/values-ka/values-ka.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,318,429,517,622,735,819,901,984,1097,1204,1302,1415,1519,1623,1780,1878",
-                        "endColumns": "108,103,110,87,104,112,83,81,82,112,106,97,112,103,103,156,97,80",
-                        "endOffsets": "209,313,424,512,617,730,814,896,979,1092,1199,1297,1410,1514,1618,1775,1873,1954"
                     }
                 }
             ]

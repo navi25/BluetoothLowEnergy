@@ -3,18 +3,18 @@ manifest
 ADDED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-56:12
 INJECTED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-56:12
 INJECTED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-56:12
-MERGED from [com.android.support:support-v13:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/e6683c1b5a2326dbb3119bfa7c6ec535/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/67e381004ea069faad18e52a94f78cf5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/9c8bdbc8043ab0f55d2295d6b5b0f9d4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b6513015399e606ee5a6a5813658131e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/91ee74439197f2dff7fdf5f8f233559e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/ef34ec1b137fc0f393b000b0134bca77/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/502183bd32c571e384a23a35b528e881/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/665c8a69d1829953afcb73161d8876fb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/5bed54a858ada02aeee8c0698aa6ade8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/4ec2a464535f22e0c93f5ee00d86c1a5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ce2b08aff7b2caae46e3816f2bc8ff65/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/navi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/bfb3de344497dc7791d9607bd89725e6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v13:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/6e113792d0dadbc25f6d7f43a81b57cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/9d06a5c01b8cc79f01cc4253a4044a57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/bdff762470139d3f5dec03cbf689dfe2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1bbb166a4aad02ad6820249080709d15/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/93d583e5b477bb236ad9c5d9ddb0c4ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/b44ca2ef871448bc7f1fbb52d11a106c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/5ee42e9cf86223ca8de7ac34b1f19209/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/39f7e6b3afa8ca768f2396401a47e84b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/0f3d4747884471a66299cbdd4c88a0ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/ea9519c7133be0e0ec16066c33c6ffe3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9de903e20620b60063028ab24b1377d1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/navi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/6c37e1dbd7a7aff877d642e84356c6aa/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-56:12
 INJECTED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-56:12
 	package
@@ -105,30 +105,30 @@ uses-sdk
 INJECTED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
 INJECTED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v13:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/e6683c1b5a2326dbb3119bfa7c6ec535/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/e6683c1b5a2326dbb3119bfa7c6ec535/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/67e381004ea069faad18e52a94f78cf5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/67e381004ea069faad18e52a94f78cf5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/9c8bdbc8043ab0f55d2295d6b5b0f9d4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/9c8bdbc8043ab0f55d2295d6b5b0f9d4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b6513015399e606ee5a6a5813658131e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/b6513015399e606ee5a6a5813658131e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/91ee74439197f2dff7fdf5f8f233559e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/91ee74439197f2dff7fdf5f8f233559e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/ef34ec1b137fc0f393b000b0134bca77/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/ef34ec1b137fc0f393b000b0134bca77/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/502183bd32c571e384a23a35b528e881/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/502183bd32c571e384a23a35b528e881/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/665c8a69d1829953afcb73161d8876fb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/665c8a69d1829953afcb73161d8876fb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/5bed54a858ada02aeee8c0698aa6ade8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/5bed54a858ada02aeee8c0698aa6ade8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/4ec2a464535f22e0c93f5ee00d86c1a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/4ec2a464535f22e0c93f5ee00d86c1a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ce2b08aff7b2caae46e3816f2bc8ff65/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/ce2b08aff7b2caae46e3816f2bc8ff65/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/navi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/bfb3de344497dc7791d9607bd89725e6/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/navi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/bfb3de344497dc7791d9607bd89725e6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v13:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/6e113792d0dadbc25f6d7f43a81b57cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/6e113792d0dadbc25f6d7f43a81b57cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/9d06a5c01b8cc79f01cc4253a4044a57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/9d06a5c01b8cc79f01cc4253a4044a57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/bdff762470139d3f5dec03cbf689dfe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/bdff762470139d3f5dec03cbf689dfe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1bbb166a4aad02ad6820249080709d15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1bbb166a4aad02ad6820249080709d15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/93d583e5b477bb236ad9c5d9ddb0c4ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/93d583e5b477bb236ad9c5d9ddb0c4ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/b44ca2ef871448bc7f1fbb52d11a106c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/b44ca2ef871448bc7f1fbb52d11a106c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/5ee42e9cf86223ca8de7ac34b1f19209/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/5ee42e9cf86223ca8de7ac34b1f19209/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/39f7e6b3afa8ca768f2396401a47e84b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/39f7e6b3afa8ca768f2396401a47e84b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/0f3d4747884471a66299cbdd4c88a0ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/0f3d4747884471a66299cbdd4c88a0ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/ea9519c7133be0e0ec16066c33c6ffe3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/ea9519c7133be0e0ec16066c33c6ffe3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9de903e20620b60063028ab24b1377d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9de903e20620b60063028ab24b1377d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/navi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/6c37e1dbd7a7aff877d642e84356c6aa/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/navi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/6c37e1dbd7a7aff877d642e84356c6aa/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
 INJECTED from /Users/navi/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
 	android:targetSdkVersion
