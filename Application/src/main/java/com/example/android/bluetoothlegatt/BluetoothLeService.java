@@ -193,8 +193,10 @@ public class BluetoothLeService extends Service {
                 String dataString = new String(data) + "\n" + stringBuilder.toString();
                 intent.putExtra(EXTRA_DATA, dataString);
                 File dir = getApplicationContext().getExternalFilesDir(null);
-                CSVReader.write(stringBuilder.toString(), dir);
+//                CSVReader.write(stringBuilder.toString(), dir);
+                CSVReader.write(data,dir);
                 Log.d(TAG, stringBuilder.toString());
+
             }
         }
         sendBroadcast(intent);

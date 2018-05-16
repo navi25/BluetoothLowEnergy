@@ -29,6 +29,12 @@ public class CSVReader {
     }
 
     public static void write(byte[] rawData, File path){
+
+        QueueMemory.write(rawData);
+
+    }
+
+    static void addHeaders(byte[] rawData, File path){
         String data = getFormattedData(rawData);
         Date currentTime = Calendar.getInstance().getTime();
         String dateValue = currentTime.toString();
@@ -39,6 +45,7 @@ public class CSVReader {
 
         String row = String.format(rowDataStringFormat,epochTime,data,dateValue);
         Log.d(TAG,"row value - " + row);
+
         writeToFile(row,path);
 
     }
